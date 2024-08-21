@@ -51,4 +51,15 @@ function clearGrid() {
     grid.textContent = '';
 }
 
+let gridNum = 16;
+squareGrid(gridNum);
+const squares = document.querySelectorAll('.square');
+squares.forEach(square => {
+square.addEventListener('mouseover', setColour)});
+
+const clearGridBtn = document.querySelector('.clear');
+const setGridBtn = document.querySelector('.set');
+
+clearGridBtn.addEventListener('click', clearGrid);
+setGridBtn.addEventListener('click', setGridSize);
 
