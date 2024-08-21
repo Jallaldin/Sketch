@@ -26,7 +26,6 @@ function setColour() {
     });
 }
 
-Squares();
 function setGridSize() {
     const size = prompt('Enter a grid size of your choice less than or equal to 100:');
     if (size === null || size === undefined || size ==='') {
