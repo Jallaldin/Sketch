@@ -46,8 +46,6 @@ function setGridSize() {
 function clearGrid() {
     const squares = document.querySelectorAll('.square');
     squares.forEach(square => { square.style.backgroundColor = null});
-    const grid = document.querySelector('.grid');
-    grid.textContent = '';
 }
 
 let gridNum = 16;
